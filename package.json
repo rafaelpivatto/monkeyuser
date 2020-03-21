@@ -1,0 +1,24 @@
+{
+  "name": "monkeyuser",
+  "version": "1.0.0",
+  "description": "Monkey User lib to fetch random images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelpivatto/monkeyuser.git"
+  },
+  "keywords": [
+    "monkey",
+    "user",
+    "onkeyuser"
+  ],
+  "author": "rafael.pivatto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelpivatto/monkeyuser/issues"
+  },
+  "homepage": "https://github.com/rafaelpivatto/monkeyuser#readme"
+}
