@@ -23,7 +23,6 @@
   "homepage": "https://github.com/rafaelpivatto/monkeyuser#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "https": "^1.0.0",
     "parser": "^0.1.4",
     "xml2js": "^0.4.23"
   }
