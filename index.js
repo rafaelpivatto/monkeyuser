@@ -2,7 +2,7 @@ const { getCollection } = require("./service/fetchCollection");
 const { raffleAnItemAndNormalize } = require("./service/util");
 
 module.exports = {
-  async getRandom() {
+  async getRandomComic() {
     return await new Promise((resolve, reject) => {
       getCollection()
         .then(response => {

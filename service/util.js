@@ -25,14 +25,16 @@ module.exports = {
       const title = checkArrayAndReturnFirst(item.title);
       const link = checkArrayAndReturnFirst(item.link);
       const pubDate = checkArrayAndReturnFirst(item.pubDate);
-      const guid = checkArrayAndReturnFirst(item.guid)["_"];
-
+      const copyright = "https://www.monkeyuser.com/";
       resolve({
-        img,
-        title,
-        link,
-        pubDate,
-        guid
+        data: {
+          img,
+          title,
+          link,
+          pubDate,
+          copyright
+        },
+        success: true
       });
     });
   }
