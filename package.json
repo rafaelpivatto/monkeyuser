@@ -1,7 +1,7 @@
 {
   "name": "monkeyuser",
   "version": "1.0.0",
-  "description": "Monkey User lib to fetch random images",
+  "description": "MonkeyUser library allow fetch comic strip",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
